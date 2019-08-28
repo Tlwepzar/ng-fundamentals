@@ -89,7 +89,7 @@ const EVENTS:IEvent[] =  [
           Angular 6 even though no code has yet been written for it. We'll 
           look at what it might do, and how to convince your manager to 
           hold off on any new apps until it's released`,
-          voters: []
+          voters: ['johnpapa', 'bradgreen', 'igorminar', 'martinfowler']
         },
         {
           id: 5,
