@@ -1,4 +1,4 @@
-import { Routes } from '@angular/core';
+import { Routes } from '@angular/router';
 
 import {
     EventsListComponent,
