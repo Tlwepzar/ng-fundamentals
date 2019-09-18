@@ -10,10 +10,11 @@ import { ISession, EventService } from '../events/shared/index';
     #searchForm {margin-right: 100px;}
     #searchButton {margin-left: 20px;}
     @media (max-width:1200px) {#searchForm {displya:none}}
-    li > a.active { color: #CCFF00; }
+    li > a.active { color: rgb(0, 0, 0); }
     `
     ]
 })
+
 export class NavBarComponent {
     searchTerm: string = "";
     foundSessions: ISession[];
