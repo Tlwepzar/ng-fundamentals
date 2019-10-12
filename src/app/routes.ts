@@ -16,7 +16,7 @@ export const appRoutes:Routes = [
     { path: 'events/:id', component: EventDetailsComponent, canActivate: [EventRouteActivator] },
     { path: 'events/session/new', component: CreateSessionComponent },
     { path: '404', component: Error404Component },
-    { path: '', redirectTo: '/events', pathMatch: 'full' },
+    { path: '', redirectTo: '/user/login', pathMatch: 'full' },
     { path: 'user', loadChildren: () => import('/Users/tshepang/Documents/Angular/ng-fundamentals/src/app/events/user/user.module').then(m => m.UserModule)},
    
 ]
