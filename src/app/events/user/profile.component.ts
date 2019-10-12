@@ -43,6 +43,7 @@ export class ProfileComponent implements OnInit {
       this.authService.updateCurrentUser(formValues.firstName, formValues.lastName)
       this.toastr.success('Profile Saved');
       this.router.navigate(['events']);
+      console.log(formValues);
     }
   }
 
@@ -57,5 +58,5 @@ export class ProfileComponent implements OnInit {
   cancel(){
     this.router.navigate(['events'])
   }
-       
+
 }
